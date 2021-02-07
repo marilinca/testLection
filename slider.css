@@ -1,0 +1,31 @@
+.slider{
+	overflow: hidden;
+
+}
+.slider img{
+	max-width: 100%
+	display: none;
+}
+
+.slider  .left  .slider  .right {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	font-size: 3em;
+	width: 100%;
+	display: flex;
+	vertical-align: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.slider .left {
+	left: 0 
+}
+.slider .right {
+	right: 0 
+}
+
+.slider .active{
+	display: block;
+}
